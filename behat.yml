@@ -10,7 +10,7 @@ default:
         show_auto: true
         show_cmd: firefox %s
 #        browser_name: phantomjs
-        base_url: http://localhost/zombie_test/web/app_test.php
+        base_url: http://localhost/zombie-test/web/app_test.php
         zombie: ~
         selenium: ~
         sahi: ~
