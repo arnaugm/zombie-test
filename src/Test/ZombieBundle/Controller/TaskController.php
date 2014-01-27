@@ -84,7 +84,5 @@ class TaskController extends Controller
                 return $this->redirect($this->generateUrl('task_edit', array('id' => $id)));
             }
         }
-
-        // render some form template
     }
 }
