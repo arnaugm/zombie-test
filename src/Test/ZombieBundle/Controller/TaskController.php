@@ -74,13 +74,7 @@ class TaskController extends Controller
                     // remove the Task from the Tag
                     $tag->getTasks()->removeElement($task);
 
-                    // if it were a ManyToOne relationship, remove the relationship like this
-                    // $tag->setTask(null);
-
                     $em->persist($tag);
-
-                    // if you wanted to delete the Tag entirely, you can also do that
-                    // $em->remove($tag);
                 }
 
                 $em->persist($task);
